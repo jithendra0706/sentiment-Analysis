@@ -1,0 +1,18 @@
+Modules Used in Sentiment Analysis Project
+------------------------------------------
+
+1. textblob
+   - Description: Used for processing textual data and performing sentiment analysis.
+   - Installation: pip install textblob
+
+2. nltk (used internally by textblob)
+   - Description: Natural Language Toolkit, required by TextBlob for tokenization and corpora.
+   - Installation: Automatically prompted by textblob, or run:
+     python -m textblob.download_corpora
+
+3. sys (optional)
+   - Description: Can be used for handling command-line arguments.
+   - Installation: Built-in module (no installation needed)
+
+Note:
+Make sure all required modules are installed before running the code.
